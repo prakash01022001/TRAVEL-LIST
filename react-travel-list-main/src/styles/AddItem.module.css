@@ -1,0 +1,39 @@
+.addItem {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.addItem form > select {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+    letter-spacing: 0.1rem;
+}
+
+.addItem form > input {
+    background-color: transparent;
+    border: 1px solid grey;
+    padding: 0.5rem 0.8rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    outline: none;
+    letter-spacing: 0.1rem;
+}
+
+.addItem form > button {
+    background-color: transparent;
+    border: 1px solid #1c7ed6;
+    border-left: none;
+    padding: 0.5rem 0.8rem;
+    padding-right: 0.9rem;
+    border-radius: 0rem 1rem 1rem 0rem;
+    cursor: pointer;
+    background-color: #1c7ed6;
+    color: white;
+    letter-spacing: 0.1rem;
+}

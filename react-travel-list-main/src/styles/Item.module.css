@@ -1,0 +1,28 @@
+.item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.item span {
+    font-size: 1rem;
+}
+
+.item > input[type="checkbox"] {
+    height: 1.5rem;
+    width: 1.5rem;
+    accent-color: #1c7ed6;
+    cursor: pointer;
+}
+
+.item > button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.packed{
+    text-decoration:line-through;
+    color:#f03e3e;
+}

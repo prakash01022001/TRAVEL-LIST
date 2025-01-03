@@ -1,0 +1,33 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.filter select {
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid grey;
+    letter-spacing: 0.1rem;
+    width: 12rem;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.filter button {
+    padding: 0.8rem 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: 1px solid #1c7ed6;
+    background-color: #1c7ed6;
+    color: white;
+    letter-spacing: 0.1rem;
+    font-style: inherit;
+    cursor: pointer;
+}
+
+
+
